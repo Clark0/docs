@@ -1,0 +1,104 @@
+# 前缀和
+https://leetcode.com/problems/range-sum-query-immutable/
+
+```cpp
+vector<int> s;
+
+void init(vector<int> &nums) {
+    int n = nums.size();
+    s.resize(n + 1);
+    for (int i = 0; i < n; i++) {
+        s[i + 1] = s[i] + nums[i];
+    }
+}
+
+/// range sum between zero-index [i, j]
+int query(int i, int j) {
+    return s[j + 1] - s[i];
+}
+```
+
+# 二维前缀和
+https://leetcode.com/problems/range-sum-query-2d-immutable/
+
+{x1, y1}为格子左上 {x2, y2}为格子右下
+```cpp
+vector<vector<int>> s;
+
+void init(vector<vector<int>> &nums) {
+    int n = nums.size();
+    int m = nums[0].size();
+    s.resize(n + 1, vector<int>(m + 1));
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            s[i + 1][j + 1] = s[i][j + 1] + s[i + 1][j] - s[i][j] + nums[i][j];
+        }
+    }
+}
+
+int query(int x1, int y1, int x2, int y2) {
+    return s[x2 + 1][y2 + 1] - s[x2 + 1][y1] - s[x1][y2 + 1] + s[x1][y1];
+}
+
+```
+
+
+# 差分数组
+
+```cpp
+vector<int> d;
+
+void init(n) {
+    d.resize(n + 1);
+}
+
+void add(int i, int j, int v) {
+    d[i] += v;
+    d[j + 1] -= v;
+}
+
+/// build in place
+vector<int> build() {
+    for (int i = 1; i < n; i++) {
+        d[i] += d[i - 1];
+    }
+
+    d.resize(d.size() - 1);
+    return d;
+}
+
+```
+
+# 二维差分
+```cpp
+vector<vector<int>> d;
+
+void init(vector<vector<int>> &nums) {
+    int n = nums.size();
+    int m = nums[0].size();
+    d.resize(n + 1, m + 1);
+}
+
+void add(int x1, int y1, int x2, int y2, int v) {
+    d[x1][y1] += v;
+    d[x1][y2 + 1] -= v;
+    d[x2 + 1][y1] -= v;
+    d[x2 + 1][y2 + 1] += v;
+}
+
+vector<vector<int>> build() {
+
+    for (int i = 1; i < n; i++) d[i][0] += d[i - 1][0];
+    for (int j = 1; j < m; j++) d[0][j] += d[0][j - 1];
+
+    for (int i = 1; i < n; i++) {
+        for (int j = 1; j < m; j++) {
+            d[i][j] = d[i][j - 1] + d[i - 1][j] - d[i - 1][j - 1];
+        }
+    }
+
+    return d;
+}
+
+```
