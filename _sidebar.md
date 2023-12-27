@@ -6,3 +6,8 @@
     * [欧拉方程](src/eular.md)
 * 动态规划
     * [背包](src/knapsack.md)
+* 图论
+    * [最短路](src/min-distance.md)
+* 数组
+    * [单调栈](src/monotone-stack.md)
+    * [前缀和](src/prefixSum.md)
