@@ -1,13 +1,23 @@
 * [首页](/)
 * 数据结构
-    * [ST表](src/sparse-table.md)
+    * [ST表](src/ST表.md)
+    * [并查集](src/并查集.md)
+    * [堆](src/堆.md)
+    * [树状数组](src/树状数组.md)
 * 数学
-    * [素数筛](src/prime.md)
-    * [欧拉方程](src/eular.md)
+    * [素数](src/素数.md)
 * 动态规划
-    * [背包](src/knapsack.md)
+    * [背包](src/背包.md)
 * 图论
-    * [最短路](src/min-distance.md)
+    * [最短路](src/最短路.md)
+    * [LCA](src/LCA.md)
 * 数组
-    * [单调栈](src/monotone-stack.md)
-    * [前缀和](src/prefixSum.md)
+    * [单调栈](src/单调栈.md)
+    * [前缀和](src/前缀和.md)
+* 字符串
+    * [字典树](src/字典树.md)
+    * [Z函数](src/z函数.md)
+    * [字符串哈希](src/字符串哈希.md)
+* 动态规划
+    * [数位DP](src/数位dp.md)
+
