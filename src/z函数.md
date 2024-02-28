@@ -37,6 +37,8 @@ vector<int> z_function(const string &s) {
             r = i + z[i];
         }
     }
+    // z[0] = n;
     return z;
 }
 ```
+https://codeforces.com/problemset/problem/432/D
