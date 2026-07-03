@@ -60,7 +60,7 @@ last_update: 2025-08-05 01:28:01
 - [ ] [3555. 排序每个滑动窗口中最小的子数组](https://leetcode.cn/problems/smallest-subarray-to-sort-in-every-sliding-window/)（会员题）
 - [ ] [962. 最大宽度坡](https://leetcode.cn/problems/maximum-width-ramp/) 1608
 - [ ] [3542. 将所有元素变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-convert-all-elements-to-zero/) 1890
-- [ ] [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/) 1908
+- [x] [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/) 1908
 
 ## 二、矩形
 
@@ -98,4 +98,3 @@ last_update: 2025-08-05 01:28:01
 - [ ] [2030. 含特定字母的最小子序列](https://leetcode.cn/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) 2562
 
 ## 算法题单
-

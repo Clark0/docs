@@ -31,7 +31,7 @@ last_update: 2025-10-13 02:48:30
 - [ ] [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)
 - [ ] [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/)
 - [ ] [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/) 1383
-- [ ] [1306. 跳跃游戏 III](https://leetcode.cn/problems/jump-game-iii/) 1397
+- [x] [1306. 跳跃游戏 III](https://leetcode.cn/problems/jump-game-iii/) 1397
 - [ ] [841. 钥匙和房间](https://leetcode.cn/problems/keys-and-rooms/) 1412
 - [ ] [2316. 统计无向图中无法互相到达点对数](https://leetcode.cn/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) 1604
 - [ ] [1319. 连通网络的操作次数](https://leetcode.cn/problems/number-of-operations-to-make-network-connected/) 1633
@@ -126,7 +126,7 @@ last_update: 2025-10-13 02:48:30
 - [ ] [1197. 进击的骑士](https://leetcode.cn/problems/minimum-knight-moves/) 1722（会员题）
 - [ ] [3141. 最大汉明距离](https://leetcode.cn/problems/maximum-hamming-distances/)（会员题）
 - [ ] [2998. 使 X 和 Y 相等的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-x-and-y-equal/) 1795
-- [ ] [1345. 跳跃游戏 IV](https://leetcode.cn/problems/jump-game-iv/) 1810
+- [x] [1345. 跳跃游戏 IV](https://leetcode.cn/problems/jump-game-iv/) 1810
 - [ ] [2059. 转化数字的最小运算数](https://leetcode.cn/problems/minimum-operations-to-convert-number/) 1850
 - [ ] [1654. 到家的最少跳跃次数](https://leetcode.cn/problems/minimum-jumps-to-reach-home/) 2124
 - [ ] [3629. 通过质数传送到达终点的最少跳跃次数](https://leetcode.cn/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) 2139

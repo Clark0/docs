@@ -85,8 +85,8 @@ last_update: 2025-11-23 22:46:39
 > [视频讲解【基础算法精讲 07】](https://www.bilibili.com/video/BV1KG4y1G7cu/)
 > **思维扩展**：
 
-- [ ] [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/) 1232
-- [ ] [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/) 1324
+- [x] [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/) 1232
+- [x] [2095. 删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/) 1324
 - [ ] [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
 - [ ] [2130. 链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/) 1318
 - [ ] [143. 重排链表](https://leetcode.cn/problems/reorder-list/)
@@ -433,7 +433,7 @@ last_update: 2025-11-23 22:46:39
 - [ ] [690. 员工的重要性](https://leetcode.cn/problems/employee-importance/)
 - [ ] [3249. 统计好节点的数目](https://leetcode.cn/problems/count-the-number-of-good-nodes/) 1566
 - [ ] [1519. 子树中标签相同的节点数](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) 1809
-- [ ] [3558. 给边赋权值的方案数 I](https://leetcode.cn/problems/number-of-ways-to-assign-edge-weights-i/) 1845
+- [x] [3558. 给边赋权值的方案数 I](https://leetcode.cn/problems/number-of-ways-to-assign-edge-weights-i/) 1845
 - [ ] [3593. 使叶子路径成本相等的最小增量](https://leetcode.cn/problems/minimum-increments-to-equalize-leaf-paths/) 1959
 - [ ] [2872. 可以被 K 整除连通块的最大数目](https://leetcode.cn/problems/maximum-number-of-k-divisible-components/) 1968
 - [ ] [2477. 到达首都的最少油耗](https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/) 2012
@@ -477,6 +477,7 @@ last_update: 2025-11-23 22:46:39
 
 > [讲解](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/solution/mo-ban-jiang-jie-shu-shang-bei-zeng-suan-v3rw/)
 > 带权树 LCA 模板（节点编号从 $0$ 开始）：
+> 本地模板见 [[算法模板#LCA]]。
 
 > **数组上的倍增**：
 
@@ -662,4 +663,3 @@ last_update: 2025-11-23 22:46:39
 - [ ] [932. 漂亮数组](https://leetcode.cn/problems/beautiful-array/) 2294
 
 ## 算法题单
-

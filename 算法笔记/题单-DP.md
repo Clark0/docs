@@ -147,7 +147,7 @@ cssclasses: [cards, cards-cover, cards-1-1]
 - [x] [494. 目标和](https://leetcode.com/problems/target-sum/)
 - [x] [2915. 和为目标值的最长子序列的长度](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/) 1659
 - [x] [2787. 将一个数字表示成幂的和的方案数](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/) 1818
-- [ ] [3180. 执行操作可获得的最大总奖励 I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/) 1849
+- [x] [3180. 执行操作可获得的最大总奖励 I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/) 1849
 
 **进阶**：
 
@@ -162,7 +162,7 @@ cssclasses: [cards, cards-cover, cards-1-1]
 - [ ] [2518. 好分区的数目](https://leetcode.com/problems/number-of-great-partitions/) 2415
 - [ ] [2742. 给墙壁刷油漆](https://leetcode.com/problems/painting-the-walls/) 2425 至少装满
 - [ ] [3287. 求出数组中最大序列值](https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/) 2545
-- [ ] [3181. 执行操作可获得的最大总奖励 II](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/) 2688 bitset 优化
+- [x] [3181. 执行操作可获得的最大总奖励 II](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/) 2688 bitset 优化
 - [ ] [LCP 47. 入场安检](https://leetcode.com/problems/oPs9Bm/)
 - [ ] [2291. 最大股票收益](https://leetcode.com/problems/maximum-profit-from-trading-stocks/)（会员题）
 - [ ] [2431. 最大限度地提高购买水果的口味](https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits/)（会员题）
@@ -173,7 +173,7 @@ cssclasses: [cards, cards-cover, cards-1-1]
 
 物品可以重复选，无个数限制。
 
-- [ ] [322. 零钱兑换](https://leetcode.com/problems/coin-change/)
+- [x] [322. 零钱兑换](https://leetcode.com/problems/coin-change/)
 - [ ] [518. 零钱兑换 II](https://leetcode.com/problems/coin-change-ii/)
 - [ ] [279. 完全平方数](https://leetcode.com/problems/perfect-squares/)
 - [ ] [3610. 目标和所需的最小质数个数](https://leetcode.com/problems/minimum-number-of-primes-to-sum-to-target/)（会员题）
@@ -1114,7 +1114,7 @@ def digitDPContribution(low: int, high: int, k: int) -> int:
 - [ ] [2713. 矩阵中严格递增的单元格数](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/) 2387
 - [ ] [3651. 带传送的最小路径成本](https://leetcode.com/problems/minimum-cost-path-with-teleportations/) 2411
 - [ ] [2318. 不同骰子序列的数目](https://leetcode.com/problems/number-of-distinct-roll-sequences/) 容斥优化（类似 CF1943D2）
-- [ ] [3181. 执行操作可获得的最大总奖励 II](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/) 2688 bitset 优化
+- [x] [3181. 执行操作可获得的最大总奖励 II](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/) 2688 bitset 优化
 - [ ] [2267. 检查是否有合法括号字符串路径](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/) 可以进一步地用 bitset 优化
 - [ ] [3213. 最小代价构造字符串](https://leetcode.com/problems/construct-string-with-minimum-cost/) 字符串哈希 / 后缀数组 / AC 自动机优化
 - [ ] [3292. 形成目标字符串需要的最少字符串数 II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/) 字符串哈希 / AC 自动机优化
@@ -1432,7 +1432,7 @@ class Solution:
 
 ## 🏃 专题：跳跃游戏
 
-- [ ] [1306. 跳跃游戏 III](https://leetcode.com/problems/jump-game-iii/) 1397
+- [x] [1306. 跳跃游戏 III](https://leetcode.com/problems/jump-game-iii/) 1397
 - [ ] [2770. 达到末尾下标所需的最大跳跃次数](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) 1533
 - [ ] [403. 青蛙过河](https://leetcode.com/problems/frog-jump/)
 - [ ] [1340. 跳跃游戏 V](https://leetcode.com/problems/jump-game-v/) 1866

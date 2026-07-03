@@ -24,13 +24,13 @@
 - [ ] [1679. K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
 - [ ] [面试题 16.24. 数对和](https://leetcode.com/problems/pairs-with-sum-lcci/)
 - [ ] [219. 存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/)
-- [ ] [2260. 必须拿起的最小连续卡牌数](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) 1365
-- [ ] [2001. 可互换矩形的组数](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/) 1436
+- [x] [2260. 必须拿起的最小连续卡牌数](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) 1365
+- [x] [2001. 可互换矩形的组数](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/) 1436
 - [ ] [2815. 数组中的最大数对和](https://leetcode.com/problems/max-pair-sum-in-an-array/)
 - [ ] [3623. 统计梯形的数目 I](https://leetcode.com/problems/count-number-of-trapezoids-i/) 1580
-- [ ] [2364. 统计坏数对的数目](https://leetcode.com/problems/count-number-of-bad-pairs/) 1622
+- [x] [2364. 统计坏数对的数目](https://leetcode.com/problems/count-number-of-bad-pairs/) 1622
 - [ ] [3805. 统计凯撒加密对数目](https://leetcode.com/problems/count-caesar-cipher-pairs/) 1624
-- [ ] [3371. 识别数组中的最大异常值](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) 1644
+- [x] [3371. 识别数组中的最大异常值](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) 1644
 - [ ] [3761. 镜像对之间最小绝对距离](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) 1669
 - [ ] [1014. 最佳观光组合](https://leetcode.com/problems/best-sightseeing-pair/) 1730
 - [ ] [1814. 统计一个数组中好对子的数目](https://leetcode.com/problems/count-nice-pairs-in-an-array/)
@@ -44,7 +44,7 @@
 - [ ] [2748. 美丽下标对的数目](https://leetcode.com/problems/number-of-beautiful-pairs/)
 - [ ] [2506. 统计相似字符串对的数目](https://leetcode.com/problems/count-pairs-of-similar-strings/)
 - [ ] [2874. 有序三元组中的最大值 II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/) 1583
-- [ ] [1497. 检查数组对是否可以被 k 整除](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) 1787
+- [x] [1497. 检查数组对是否可以被 k 整除](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) 1787
 - [ ] [1031. 两个无重叠子数组的最大和](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) 2000
 - [ ] [2555. 两个线段获得的最多奖品](https://leetcode.com/problems/maximize-win-from-two-segments/)
 - [ ] [1995. 统计特殊四元组](https://leetcode.com/problems/count-special-quadruplets/)
@@ -109,11 +109,11 @@ std::partial_sum(nums.begin(), nums.end(), pre.begin() + 1);
 pre[right] - pre[left];
 ```
 
-- [ ] [303. 区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/)
-- [ ] [3427. 变长子数组求和](https://leetcode.com/problems/sum-of-variable-length-subarrays/)
-- [ ] [2559. 统计范围内的元音字符串数](https://leetcode.com/problems/count-vowel-strings-in-ranges/) 1435
-- [ ] [1310. 子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) 1460
-- [ ] [3152. 特殊数组 II](https://leetcode.com/problems/special-array-ii/) 1523
+- [x] [303. 区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/)
+- [x] [3427. 变长子数组求和](https://leetcode.com/problems/sum-of-variable-length-subarrays/)
+- [x] [2559. 统计范围内的元音字符串数](https://leetcode.com/problems/count-vowel-strings-in-ranges/) 1435
+- [x] [1310. 子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) 1460
+- [x] [3152. 特殊数组 II](https://leetcode.com/problems/special-array-ii/) 1523
 - [ ] [1749. 任意子数组和的绝对值的最大值](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) 1542
 - [ ] [53. 最大子数组和](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [3652. 按策略买卖股票的最佳时机](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) 1557
@@ -153,10 +153,10 @@ for (int x : nums) {
 - [x] [525. 连续数组](https://leetcode.com/problems/contiguous-array/)
 - [ ] [面试题 17.05. 字母与数字](https://leetcode.com/problems/find-longest-subarray-lcci/)
 - [ ] [3755. 最大平衡异或子数组的长度](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/)
-- [ ] [3026. 最大好子数组和](https://leetcode.com/problems/maximum-good-subarray-sum/) 1817
+- [x] [3026. 最大好子数组和](https://leetcode.com/problems/maximum-good-subarray-sum/) 1817
 - [x] [1477. 找两个和为目标值且不重叠的子数组](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 - [x] [1546. 和为目标值且不重叠的非空子数组的最大数目](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
-- [ ] [1124. 表现良好的最长时间段](https://leetcode.com/problems/longest-well-performing-interval/) 1908
+- [x] [1124. 表现良好的最长时间段](https://leetcode.com/problems/longest-well-performing-interval/) 1908
 - [ ] [3728. 边界与内部和相等的稳定子数组](https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/) 1909
 - [ ] [3381. 长度可被 K 整除的子数组的最大元素和](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/) 1943
 - [ ] [2488. 统计中位数为 K 的子数组](https://leetcode.com/problems/count-subarrays-with-median-k/) 1999
@@ -226,7 +226,7 @@ for (int x : nums) {
 - [ ] [2819. 购买巧克力后的最小相对损失](https://leetcode.com/problems/minimum-relative-loss-after-buying-chocolates/)
 
 #### 思维扩展
-- [ ] [2300. 咒语和药水的成功对数](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
+- [x] [2300. 咒语和药水的成功对数](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
 - [ ] [1534. 统计好三元组](https://leetcode.com/problems/count-good-triplets/)
 
 ### §1.6 二维前缀和
@@ -498,7 +498,7 @@ ans[left] = nums[q[0]]
 - [ ] [1912. 设计电影租借系统](https://leetcode.com/problems/design-movie-rental-system/)
 
 ### §5.3 第 K 小/大
-- [ ] [264. 丑数 II](https://leetcode.com/problems/ugly-number-ii/)
+- [x] [264. 丑数 II](https://leetcode.com/problems/ugly-number-ii/)
 - [ ] [378. 有序矩阵中第 K 小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 - [ ] [23. 合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [373. 查找和最小的 K 对数字](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
@@ -571,11 +571,11 @@ ans[left] = nums[q[0]]
 ## 六、字典树（Trie）
 
 ### §6.1 基础
-- [ ] [208. 实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [x] [208. 实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [ ] [3597. 分割字符串](https://leetcode.com/problems/partition-string/)
-- [ ] [648. 单词替换](https://leetcode.com/problems/replace-words/)
+- [x] [648. 单词替换](https://leetcode.com/problems/replace-words/)
 - [ ] [720. 词典中最长的单词](https://leetcode.com/problems/longest-word-in-dictionary/)
-- [ ] [2416. 字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/) 1725
+- [x] [2416. 字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/) 1725
 - [ ] [677. 键值映射](https://leetcode.com/problems/map-sum-pairs/)
 - [ ] [1268. 搜索推荐系统](https://leetcode.com/problems/search-suggestions-system/)
 - [ ] [1233. 删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)

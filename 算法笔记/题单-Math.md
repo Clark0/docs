@@ -327,7 +327,7 @@ last_update: 2025-10-16 23:03:35
 - [ ] [3179. K 秒后第 N 个元素的值](https://leetcode.cn/problems/find-the-n-th-value-after-k-seconds/) 1369
 - [ ] [1359. 有效的快递序列数目](https://leetcode.cn/problems/count-all-valid-pickup-and-delivery-options/) 1723
 - [ ] [2400. 恰好移动 k 步到达某一位置的方法数目](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/) 1751
-- [ ] [3558. 给边赋权值的方案数 I](https://leetcode.cn/problems/number-of-ways-to-assign-edge-weights-i/) 1845
+- [x] [3558. 给边赋权值的方案数 I](https://leetcode.cn/problems/number-of-ways-to-assign-edge-weights-i/) 1845
 - [ ] [2514. 统计同位异构字符串数目](https://leetcode.cn/problems/count-anagrams/) 2070
 - [ ] [3154. 到达第 K 级台阶的方案数](https://leetcode.cn/problems/find-number-of-ways-to-reach-the-k-th-stair/) 2071
 - [ ] [1643. 第 K 条最小指令](https://leetcode.cn/problems/kth-smallest-instructions/) 2080
@@ -611,4 +611,3 @@ last_update: 2025-10-16 23:03:35
 - [ ] [2647. 把三角形染成红色](https://leetcode.cn/problems/color-the-triangle-red/)（会员题）
 
 ### 算法题单
-

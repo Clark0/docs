@@ -507,7 +507,7 @@ last_update: 2025-11-19 23:15:19
 - [ ] [2396. 严格回文的数字](https://leetcode.cn/problems/strictly-palindromic-number/) 1329
 - [ ] [1689. 十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) 1355
 - [ ] [3674. 数组元素相等的最小操作次数](https://leetcode.cn/problems/minimum-operations-to-equalize-array/) 1369
-- [ ] [3689. 最大子数组总值 I](https://leetcode.cn/problems/maximum-total-subarray-value-i/) 1371
+- [x] [3689. 最大子数组总值 I](https://leetcode.cn/problems/maximum-total-subarray-value-i/) 1371
 - [ ] [598. 区间加法 II](https://leetcode.cn/problems/range-addition-ii/)
 - [ ] [521. 最长特殊序列 Ⅰ](https://leetcode.cn/problems/longest-uncommon-subsequence-i/)
 - [ ] [3675. 转换字符串的最小操作次数](https://leetcode.cn/problems/minimum-operations-to-transform-string/) 1414
