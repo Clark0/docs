@@ -1,8 +1,11 @@
-.DS_Store
-
 # Obsidian
-.obsidian/workspace/*
-.obsidian/themes/*
+# only to exclude workspace cache
+.obsidian/workspace.json
 
-Untitled*
+# to exclude workspace cache specific to mobile devices
+.obsidian/workspace-mobile.json
+
+.claude
+
 .trash/
+.DS_Store
